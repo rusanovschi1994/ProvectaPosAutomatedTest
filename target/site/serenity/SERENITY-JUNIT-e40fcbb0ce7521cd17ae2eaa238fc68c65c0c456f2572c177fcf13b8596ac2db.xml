@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="testspackage.WhenRegistration" skipped="0" tests="1" time="5.89" timestamp="2022-12-09 05:15:10"><testcase classname="testspackage.WhenRegistration" name="Type invalid confirm password"><error message="Expected condition failed: waiting for By.xpath: //button[@type=&quot;submit&quot;] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.6.0', revision: '79f1c02ae20'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Expected condition failed: waiting for By.xpath: //button[@type="submit"] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //button[@type="submit"] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown&#13;
+testpackage.page.RegistrationPage.clickRegistrationButton(RegistrationPage.java:57)&#13;
+testpackage.steps.RegistrationSteps.click_registration_button(RegistrationSteps.java:44)&#13;
+testspackage.WhenRegistration.typeInvalidConfirmPassword(WhenRegistration.java:26)&#13;
+</system-err></testcase></testsuite>
